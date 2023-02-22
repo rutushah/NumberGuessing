@@ -1,0 +1,123 @@
+/**
+    Prepared By : Rutu Shah
+	Student ID : 2094023
+    css for number guessing assingment
+*/
+
+body {
+	background-color: #555454;
+	font-family: 'Gar-A-MondTall', sans-serif;
+	font-weight: bold;
+}
+
+#container {
+	background-color: #0d3146;
+	/* background-color: #0fe2ad; */
+	border: 5px solid #F5E4C3;
+	height: 670px;
+	width: 1050px;
+	margin: auto;
+	text-align: center;
+}
+
+.tab {
+	position: relative;
+	top: -123px;
+}
+
+li {
+	list-style-type: none;
+	position: relative;
+	left: 10%;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+}
+
+#userInput {
+	width: 100px;
+	margin: 25px 0;
+}
+
+#btn {
+	margin: 25px 0 0 5px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 66px;
+	color: white;
+}
+
+.whiteButton {
+	background-color: white;
+	height: 45px;
+	width: 183px;
+	border-radius: 15px;
+	font-weight: bold;
+	font-family: 'Gar-A-MondTall', sans-serif;
+}
+
+#questionSysmbol {
+	height: 76px;
+	width: 116px;
+	background-color: white;
+	position: relative;
+	top: -150px;
+	left: 22%;
+	border: 1px solid black;
+}
+
+span:nth-of-type(1) {
+	font-size: 65px;
+	font-weight: bold;
+	margin-left: 3px;
+}
+
+button:nth-of-type(1) {
+	position: relative;
+	top: 28px;
+	left: -30.5%;
+}
+
+#userInput {
+	background-color: #0d3146;
+	height: 85px;
+	width: 171px;
+	border-radius: 5px;
+	position: relative;
+	top: -258px;
+	left: -12%;
+	border: 1px solid white;
+}
+
+input[type=text]:focus {
+	outline: 2px solid white;
+	background-color: white;
+}
+
+#btn {
+	position: relative;
+	top: -150px;
+	left: -29.5%;
+}
+
+#horizontalLine {
+	padding: 51px;
+	content: " ";
+	display: block;
+	border-bottom: 10px solid rgb(255 255 255);
+	width: 91%;
+	position: relative;
+	left: -26%;
+	top: -16%;
+}
+
+h5 {
+	text-align: right;
+	margin-right: 108px;
+	color: white;
+	font-size: 20px;
+}

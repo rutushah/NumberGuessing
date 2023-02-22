@@ -1,0 +1,47 @@
+<!--
+   Prepared By : Rutu Shah
+   Student ID : 2094023
+   Assignment Name : Number Guessing Game
+   Assignment Description : In this game, user have to guess the number from 1 to 20 and on each 
+   						 incorrect value the score of the user is reduced by 1.
+   -->
+   <!DOCTYPE html>
+   <html lang="en">
+	  <head>
+		 <meta charset="UTF-8">
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		 <meta name="viewport" content="width=d, initial-scale=1.0">
+		 <title>Number Guessing</title>
+		 <link rel="stylesheet" href="css/stl.css">
+		 <!--Linking css file-->
+	  </head>
+	  <body>
+		 <div id="container">
+			<button type="reset" class="whiteButton" onclick="refreshPage()">Again</button>
+			<h5>( Between 1 and 20 )</h5>
+			<h1>Guess My Number !</h1>
+			<div id="horizontalLine" style="margin-left: 270px;">
+			   <!-- This div is used to create horizontal line -->
+			</div>
+			<div id="questionSysmbol">
+			   <span>&#63;</span>
+			</div>
+			<div class="tab">
+			   <ul>
+				  <li>
+					 <p id="outputtext"> No Number !</p>
+				  </li>
+				  <li style="margin-left: -50px;">
+					 <p id="score" >Score :</p>
+				  </li>
+				  <li style="margin-left: 12px;">
+					 <p id="highScore">High Score :</p>
+				  </li>
+			   </ul>
+			</div>
+			<input type="number" id="userInput" onkeypress="changeColorOFInput()"> 
+			<button id="btn" class="whiteButton" onclick="startGame()">Check!</button>
+		 </div>
+		 <script src="js/main.js"></script> <!--Linking js file-->
+	  </body>
+   </html>
